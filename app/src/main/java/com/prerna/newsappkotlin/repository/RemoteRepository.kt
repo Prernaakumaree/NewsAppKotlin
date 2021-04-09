@@ -4,9 +4,7 @@ import com.prerna.newsappkotlin.model.Article
 import com.prerna.newsappkotlin.network.NewsApi
 import javax.inject.Inject
 
-class RemoteRepository @Inject constructor(
-    private val newsApi: NewsApi
-) : BaseRepository() {
+class RemoteRepository @Inject constructor(private val newsApi: NewsApi) : BaseRepository() {
 
     suspend fun getBreakingNews(): MutableList<Article>? {
         return safeApiCall(

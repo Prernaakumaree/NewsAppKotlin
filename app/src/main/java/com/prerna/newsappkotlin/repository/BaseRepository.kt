@@ -27,6 +27,6 @@ open class BaseRepository {
                 return@newsApiOutput Output.Success(resultResponse)
             }
         }
-        return Output.Error(IOException("OOps .. Something went wrong due to  $error"))
+        return Output.Error(IOException("Oops .. Something went wrong due to  $error"))
     }
 }

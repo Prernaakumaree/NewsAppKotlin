@@ -16,22 +16,21 @@ import kotlinx.android.synthetic.main.fragment_detail_news.*
 class DetailNewsFragment : Fragment(R.layout.fragment_detail_news) {
 
     private val viewModel: NewsViewModel by viewModels()
-    private val args: DetailNewsFragmentArgs by navArgs()
-
+    //private val args: DetailNewsFragmentArgs by navArgs()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val article = args.article
+        //val article = args.article
         webView.apply {
             webViewClient = WebViewClient()
-            article.url?.let {
+           /* article.url?.let {
                 loadUrl(it)
-            }
+            }*/
         }
 
         fab.setOnClickListener {
-            viewModel.saveNews(article)
+            //viewModel.saveNews(article)
             Snackbar.make(view, "News saved successfully", Snackbar.LENGTH_SHORT).show()
         }
     }

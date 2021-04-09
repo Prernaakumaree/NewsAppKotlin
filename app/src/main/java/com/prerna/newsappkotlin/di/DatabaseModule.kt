@@ -17,13 +17,8 @@ object DatabaseModule {
 
     @Singleton
     @Provides
-    fun provideArticleDatabase(
-        @ApplicationContext app: Context
-    ) = Room.databaseBuilder(
-        app,
-        ArticleDatabase::class.java,
-        NEWS_DATABASE_NAME
-    ).build()
+    fun provideArticleDatabase(@ApplicationContext app: Context) =
+        Room.databaseBuilder(app, ArticleDatabase::class.java, NEWS_DATABASE_NAME).build()
 
     @Singleton
     @Provides

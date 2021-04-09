@@ -22,7 +22,8 @@
                 android:id="@+id/ivNewsImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:scaleType="centerCrop" />
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/news_image" />
 
             <View
                 android:layout_width="match_parent"
@@ -36,7 +37,7 @@
                 android:fontFamily="@font/g_bold"
                 android:padding="10dp"
                 android:textColor="@color/white"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:text="TITLE" />
 
             <LinearLayout

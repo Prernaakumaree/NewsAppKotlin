@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">NewsAppKotlin</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="news_for_you">NEWS FOR YOU !!</string>
+    <string name="search">Search</string>
+    <string name="news_image">news image</string>
+    <string name="breaking_news">Breaking News</string>
+    <string name="saved_news">Saved News</string>
+    <string name="search_news">Search News</string>
 </resources>

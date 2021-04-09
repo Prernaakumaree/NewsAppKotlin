@@ -89,6 +89,6 @@ class SavedNewsFragment : Fragment(R.layout.fragment_saved_news) {
     }
 
     private fun deleteNews() {
-
+        // TODO
     }
 }

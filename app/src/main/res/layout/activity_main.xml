@@ -10,7 +10,7 @@
         android:id="@+id/textBrand"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:layout_weight="10"
         android:background="@color/white"
         android:fontFamily="@font/g_bold"
